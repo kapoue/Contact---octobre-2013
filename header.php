@@ -51,20 +51,20 @@
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <!-- <script src="/fancybox/lib/jquery-1.10.1.min.js"></script> -->
-<link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-<script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+<link rel="stylesheet" href="http://www.contact.bouyguestelecom.fr/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="http://www.contact.bouyguestelecom.fr/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 
-<link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
-<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
-<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+<link rel="stylesheet" href="http://www.contact.bouyguestelecom.fr/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+<script type="text/javascript" src="http://www.contact.bouyguestelecom.fr/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="http://www.contact.bouyguestelecom.fr/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
 
-<link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
-<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+<link rel="stylesheet" href="http://www.contact.bouyguestelecom.fr/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+<script type="text/javascript" src="http://www.contact.bouyguestelecom.fr/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 
 <?php
 	$nombre_aleatoire = mt_rand(1,4000000000);
 ?>
-<link rel="stylesheet" type="text/css" href="/css/style_octobre.css?version=3.0.<?php echo $nombre_aleatoire; ?>" />
+<link rel="stylesheet" type="text/css" href="http://www.contact.bouyguestelecom.fr/css/style_octobre.css?version=3.0.<?php echo $nombre_aleatoire; ?>" />
 <!--[if lt IE 9]>
 <script async src="/js/hub/html5shiv.js"></script>
 <![endif]-->
@@ -73,7 +73,7 @@
 <!--[if lte IE 8]><script async src="/js/selectivizr-min.js"></script><![endif]-->
 <!-- / CSS3 selectors for IE -->
 
-<script type="text/javascript" src="/js/script_novembre.js?v=1.<?php echo $nombre_aleatoire; ?>"></script>
+<script type="text/javascript" src="http://www.contact.bouyguestelecom.fr/js/script_novembre.js?v=1.<?php echo $nombre_aleatoire; ?>"></script>
 
 <script type="text/javascript">
     $(document).ready(function() {
