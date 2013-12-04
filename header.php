@@ -64,7 +64,7 @@
 <?php
 	$nombre_aleatoire = mt_rand(1,4000000000);
 ?>
-<link rel="stylesheet" type="text/css" href="http://www.contact.bouyguestelecom.fr/css/style_octobre.css?version=3.0.<?php echo $nombre_aleatoire; ?>" />
+<link rel="stylesheet" type="text/css" href="css/style_octobre.css?version=3.0.<?php echo $nombre_aleatoire; ?>" />
 <!--[if lt IE 9]>
 <script async src="/js/hub/html5shiv.js"></script>
 <![endif]-->
@@ -73,7 +73,7 @@
 <!--[if lte IE 8]><script async src="/js/selectivizr-min.js"></script><![endif]-->
 <!-- / CSS3 selectors for IE -->
 
-<script type="text/javascript" src="http://www.contact.bouyguestelecom.fr/js/script_novembre.js?v=1.<?php echo $nombre_aleatoire; ?>"></script>
+<script type="text/javascript" src="js/script_novembre.js?v=1.<?php echo $nombre_aleatoire; ?>"></script>
 
 <script type="text/javascript">
     $(document).ready(function() {

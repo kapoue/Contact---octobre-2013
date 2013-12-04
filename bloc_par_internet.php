@@ -38,7 +38,7 @@ $texte_lien_bloc_4 = "<article></article>
 	<article id="bloc_4">
 		<header>Réseaux sociaux</header>
 		<?php if ($url == "/Contact%20-%20octobre%202013/") { echo $texte_lien_bloc_4;} ?>
-		<article class="lien_texte"><a href="http://www.facebook.com/bouyguestelecom" title="Facebook" onclick="return xt_adc(this,'int-100001-[Contact::1311::03::HomeBloc4::LogoFacebook]')"><img src="/img/octobre_2013/logo_facebook.png" border="0"></a><a href="https://twitter.com/bouyguestelecom" title="Twitter" onclick="return xt_adc(this,'int-100001-[Contact::1311::03::HomeBloc4::LogoTwitter]')"><img src="/img/octobre_2013/logo_twitter.png" border="0"></a></article>
+		<article class="lien_texte"><a href="http://www.facebook.com/bouyguestelecom" title="Facebook" onclick="return xt_adc(this,'int-100001-[Contact::1311::03::HomeBloc4::LogoFacebook]')"><img src="http://www.contact.bouyguestelecom.fr/img/octobre_2013/logo_facebook.png" border="0"></a><a href="https://twitter.com/bouyguestelecom" title="Twitter" onclick="return xt_adc(this,'int-100001-[Contact::1311::03::HomeBloc4::LogoTwitter]')"><img src="http://www.contact.bouyguestelecom.fr/img/octobre_2013/logo_twitter.png" border="0"></a></article>
 	</article>
 	<br clear="all">
 </section>

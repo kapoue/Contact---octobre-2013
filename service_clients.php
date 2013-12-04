@@ -168,7 +168,6 @@ include_once('base64.php');
 				<article>du <b>lundi au samedi de 8h &agrave; 20h</b> (prix d&rsquo;un appel vers la France) ou serveur <b>vocal disponible 7j/7 &ndash; 24h/24</b></article>
 			</article>
 			
-			
 			<br clear="all">
 			
 		</article>
@@ -177,30 +176,31 @@ include_once('base64.php');
 		<!-- Blocs du bas -->
 		<article id="blocs_du_bas">
 			<article id="reclamation">
-				<article id="plus_moins"></article>
-				Comment nous faire part d'une r&eacute;clamation ?
+				<article class="slider-outer">
+				    <article class="monsliderPlus"><img src="<?php echo $logo_plus; ?>" alt=""></article>
+				    <article class="monsliderMoins"><img src="<?php echo $logo_moins; ?>" alt=""></article>
+				</article>
+				<header class="txt_20 txt_color_5a txt_uppercase">Comment nous faire part d'une r&eacute;clamation ?</header>
 			</article>
 			<article id="reclamation_contenu">
-				Les conseillers  Bouygues Telecom sont &agrave; votre &eacute;coute et mettent tout en &oelig;uvre pour donner une r&eacute;ponse rapide &agrave; votre r&eacute;clamation par t&eacute;l&eacute;phone (voir num&eacute;ros ci-dessus)<br>
-				Autres moyens d&rsquo;adresser une r&eacute;clamation :<br>
-				<header>Par mail</header>
-				Remplissez le formulaire en ligne (disponible 24/24)<br>
-				<span class="lien_texte"><img src="<?php echo $fleche_bleue; ?>"><a href="#" title="Acc&eacute;der au formulaire" onclick="return xt_adc(this,'int-100001-[Contact::1311::03::ServiceClientsBlocsBas::Reclamation]')">Acc&eacute;der au formulaire</a></span>
-				<header>Par courrier</header>
-				<span>Service Clients - Bouygues Telecom, 60436 Noailles Cedex</span><br>
-				(affranchissement au tarif en vigueur). Votre Service Clients s&rsquo;engage &agrave; r&eacute;pondre sous 30 jours.
-				<span>Pour vous assurer un traitement rapide de votre demande, n'oubliez pas :</span>
-				<article>
-					<span>1.</span>De mentionner dans votre courrier vos coordonn&eacute;es (Nom, Pr&eacute;nom, adresse) et votre num&eacute;ro de ligne Bouygues Telecom
-				</article>
-				<article>
-					<span>2.</span>De signer votre courrier (toute demande devant &ecirc;tre effectu&eacute;e par le titulaire du contrat).
-				</article>
-				<article>
-					<article>?</article>
-					<span class="lien_texte"><img src="<?php echo $fleche_bleue; ?>"><a href="#" title="Acc&eacute;der au formulaire" onclick="return xt_adc(this,'int-100001-[Contact::1311::03::ServiceClientsBlocsBas::Reclamation]')">Acc&eacute;der au formulaire</a></span>
-				</article>
+				<article class="txt_14_arial txt_color_69">Les conseillers  Bouygues Telecom sont &agrave; votre &eacute;coute et mettent tout en &oelig;uvre pour donner une r&eacute;ponse rapide &agrave; votre r&eacute;clamation par t&eacute;l&eacute;phone (voir num&eacute;ros ci-dessus)<br><br>
+				Autres moyens d&rsquo;adresser une r&eacute;clamation :</article>
+				<!-- <header class="txt_13_arial txt_bold txt_color_5a txt_uppercase">Par mail</header>
+				<article class="txt_14_arial txt_color_69">Remplissez le formulaire en ligne (disponible 24/24)</article><br>
+				<span class="lien_texte"><img src="<?php echo $fleche_bleue; ?>"><a href="#" title="Acc&eacute;der au formulaire" onclick="return xt_adc(this,'int-100001-[Contact::1311::03::ServiceClientsBlocsBas::Reclamation]')">Acc&eacute;der au formulaire</a></span> -->
+				<header class="txt_13_arial txt_bold txt_color_5a txt_uppercase">Par courrier</header>
 				
+				<article class="txt_13_arial txt_bold txt_color_5a">Service Clients - Bouygues Telecom, 60436 Noailles Cedex</article><br>
+				<article class="txt_14_arial txt_color_69">(affranchissement au tarif en vigueur). Votre Service Clients s’engage à répondre sous 30 jours.</article><br>
+				<article class="txt_14_arial txt_color_ba">Pour vous assurer un traitement rapide de votre demande, n'oubliez pas :</article><br>
+				
+				<section id="assurer_un_traitement_rapide">
+					<article class="txt_14_arial txt_color_ba">1.</article>
+					<article class="txt_14_arial txt_color_69">De mentionner dans votre courrier <b>vos coordonn&eacute;es</b> (Nom, Pr&eacute;nom, adresse) et <b>votre num&eacute;ro de ligne Bouygues Telecom</b></article>
+					<article class="txt_14_arial txt_color_ba">2.</article>
+					<article class="txt_14_arial txt_color_69">De signer votre courrier (toute demande devant &ecirc;tre effectu&eacute;e par le titulaire du contrat).</article>
+				</section>
+				<br clear="all">
 			</article>
 			<br clear="all">			
 		</article>
