@@ -1,0 +1,90 @@
+@font-face {
+    font-weight:normal;
+    font-style:normal;
+    font-family: 'Pacifico';
+    src: url('font/pacifico-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/pacifico-webfont.woff') format('woff'),
+         url('font/pacifico-webfont.ttf') format('truetype'),
+         url('font/pacifico-webfont.svg#Pacifico') format('svg');
+}
+@font-face {
+    font-weight:normal;
+    font-style:normal;
+    font-family: 'TexBold';
+    src: url('font/tex-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/tex-bold-webfont.woff') format('woff'),
+         url('font/tex-bold-webfont.ttf') format('truetype'),
+         url('font/tex-bold-webfont.svg#TexBold') format('svg');
+}
+@font-face {
+    font-weight:normal;
+    font-style:normal;
+    font-family: 'TexRegular';
+    src: url('font/tex-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/tex-regular-webfont.woff') format('woff'),
+         url('font/tex-regular-webfont.ttf') format('truetype'),
+         url('font/tex-regular-webfont.svg#TexRegular') format('svg');
+}
+
+* {
+    font: normal 1em 'TexRegular', Arial, sans-serif;
+}
+
+#contenu_horaires {
+	width: 900px;
+	height: 520px;
+	background: #fff;
+	color: #696c71;
+	font: normal 1em 'TexRegular', Arial, sans-serif;
+}
+
+#titre {
+	width: 100%;
+	margin: 20px 0 20px 0px;
+	float: left;
+	color: #00425a;
+	font-weight: bold;
+}
+
+#assistance_commerciale {
+	width: auto;
+	margin: 0 100px 0 300px;
+	float: left;
+	font-weight: bold;
+}
+
+#assistance_technique {
+	width: auto;
+	float: left;
+}
+
+#barre_fleche {
+	width: 435px;
+	border-bottom: solid 1px #696c71;
+	float: left;
+	margin: 13px 0 20px 250px;
+}
+
+.fleche {
+	float: left;
+	position: relative;
+	top: 2px;
+	left: -325px;
+	-webkit-animation-delay: 0s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 0s;
+    -moz-animation-duration: 1s;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 0s;
+    -o-animation-duration: 1s;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+}
+
+#tableau_horaires {
+    float: left;
+    width: 890px;
+}

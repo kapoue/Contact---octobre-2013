@@ -1,0 +1,1066 @@
+/* Import du header Commun */
+
+* {
+	font: normal 12px Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #F9FDFD;
+}
+
+h1 {
+	font: bold 17px Arial, Helvetica, sans-serif;
+	margin: 0 0 6px 0;
+}
+
+h2 {
+	margin: 0 0 6px 0;
+}
+
+/* Import du header Commun */
+
+
+
+.bleu {
+	color: #01abc4;
+}
+
+.gris {
+	color: #696c71;
+}
+
+.txt10px {
+	font-size: 10px;
+}
+
+.txt11px {
+	font-size: 11px;
+}
+
+.txt12px {
+	font-size: 12px;
+}
+
+.txt14px {
+	font-size: 14px;
+}
+
+.txt16px {
+	font-size: 16px;
+}
+
+.txt18px {
+	font-size: 18px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.clear {
+	clear: both;
+}
+
+strong {
+	font-weight: bold;
+}
+
+b {
+	font-weight: bold;
+}
+
+a {
+	color: #01abc4;
+}
+
+#contenu_site {
+	padding: 25px 10px 20px 10px;
+	width: 975px;
+	height: auto !important;
+	min-height:	580px;
+	background-color: #fff;
+	float: left;
+}
+
+#contenu_gauche {
+	width: 731px;
+	height: auto !important;
+	min-height: 500px;
+	float: left;
+}
+
+/* ------------------------ Haut de page */
+
+#titre {
+	margin-bottom: 5px;
+}
+
+	#titre h1 {
+		text-transform: uppercase;
+		font-size: 24px;
+		color: #696c71;
+	}
+	
+	#titre a:hover {
+		text-decoration: none;
+	}
+
+#fil_ariane {
+	margin-bottom: 20px;
+}
+
+#fil_ariane span {
+	/*display: none;*/
+}
+
+#navigation {
+	width: 731px;
+	height: 25px;
+	position: relative;
+	text-transform: uppercase;
+}
+
+	#navigation_telephone {
+		position: absolute;
+		left: 50px;
+		height: 15px;
+	}
+	
+	#navigation_clubs {
+		position: absolute;
+		left: 250px;
+		height: 15px;
+	}
+	
+	#navigation_courrier {
+		position: absolute;
+		left: 570px;
+		height: 15px;
+	}
+	
+	#navigation h2 {
+		font-size: 14px;
+		font-weight: bold;
+		color: #696c71;
+		text-transform: uppercase;
+	}
+	
+	#navigation a {
+		text-decoration: none;
+	}
+
+#sous_navigation {
+	width: 731px;
+	height: 1px;
+	background: url(../images/point.png) repeat-x;
+	position: relative;
+}
+
+	.sous_navigation_fleche {
+		background: url(../images/fleche.png) no-repeat;
+		width: 15px;
+		height: 8px;
+		position: absolute;
+		top: -7px;
+		left: 0px;
+		display: none;
+	}
+
+/* / Haut de page */
+
+/* ------------------------ Accueil */
+
+#accueil_contenu {
+	width: 729px;
+	height: 291px;
+	position: relative;
+	padding-top: 15px;
+	margin-bottom: 30px;
+	float: left;
+}
+
+#accueil_contenu img {
+	border-radius: 3px 3px 0 0;
+}
+
+	#accueil_contenu_deja_futur {
+		position: absolute;
+		width: 233px;
+		height: 289px;
+		border: 1px solid #d2d2d2;
+		border-radius: 3px;
+		background: url(../images/accueil_background_telephone_clubs_courrier.png) no-repeat;
+		left: 0px;
+	}
+	
+	#accueil_contenu_clubs {
+		position: absolute;
+		width: 233px;
+		height: 289px;
+		border: 1px solid #d2d2d2;
+		border-radius: 3px;
+		background: url(../images/accueil_background_telephone_clubs_courrier.png) no-repeat;
+		left: 249px;
+	}
+	
+	#accueil_contenu_courrier {
+		position: absolute;
+		width: 233px;
+		height: 289px;
+		border: 1px solid #d2d2d2;
+		border-radius: 3px;
+		background: url(../images/accueil_background_telephone_clubs_courrier.png) no-repeat;
+		left: 496px;
+	}
+	
+
+/* / Accueil */
+
+/* ------------------------ Par Internet */
+
+#par_internet {
+	float: left;
+}
+
+	#par_internet_titre {
+		margin-bottom: 20px;
+	}
+
+	#par_internet h2 {
+		font-size: 14px;
+		font-weight: bold;
+		color: #696c71;
+		text-transform: uppercase;
+		margin: 0px;
+	}
+	
+	#par_internet_conteneur_icones {
+		position: relative;
+		width: 729px;
+		height: 115px;
+		border: 1px solid #d2d2d2;
+		background: url(../images/barre_verticale.png) repeat-x;
+	}
+	
+		#par_internet_conteneur_icones_bloc_1 {
+			position: absolute;
+			top: 10px;
+			left: 0px;
+			width: 146px;
+			height: 105px;
+			text-align: center
+		}
+		
+		#par_internet_conteneur_icones_bloc_2 {
+			position: absolute;
+			top: 30px;
+			left: 146px;
+			width: 145px;
+			height: 85px;
+			text-align: center;
+		}
+		
+		#par_internet_conteneur_icones_bloc_3 {
+			position: absolute;
+			top: 20px;
+			left: 291px;
+			width: 146px;
+			height: 95px;
+			text-align: center;
+		}
+		
+		#par_internet_conteneur_icones_bloc_4 {
+			position: absolute;
+			top: 20px;
+			left: 437px;
+			width: 145px;
+			height: 95px;
+			text-align: center;
+		}
+		
+		#par_internet_conteneur_icones_bloc_5 {
+			position: absolute;
+			top: 20px;
+			left: 582px;
+			width: 146px;
+			height: 95px;
+			text-align: center;
+		}
+	
+	#par_internet_conteneur_icones a {
+		color: #696c71;
+		font-size: 11px;
+	}
+	
+
+/* / Par Internet */
+
+
+/* ------------------------ Sidebar */
+
+#sidebar {
+	width: 209px;
+	float: left;
+	margin: 15px 0 0 20px;
+}
+
+	#sidebar_services_urgence {
+		width: 199px;
+		height: 73px;
+		background: #01abc4;
+		border-radius: 3px;
+		color: white;
+		padding: 10px 0 0 10px;
+		margin-bottom: 20px;
+	}
+	
+		#sidebar_services_urgence h2 {
+			color: white;
+			font-size: 16px;
+			text-transform: uppercase;
+		}
+		
+		#sidebar_services_urgence a {
+			color: white;
+		}
+	
+	#sidebar_sourds {
+		width: 197px;
+		height: 200px;
+		background: url(../images/barre_verticale_4.png) bottom repeat-x;
+		position: relative;
+		padding: 10px 0 0 10px;
+		border: solid 1px #d2d2d2;
+		border-radius: 3px;
+		margin-bottom: 20px;
+	}
+	
+	#sidebar_sourds h2 {
+		color: #01abc4;
+		text-transform: uppercase;
+		font-size: 12px;
+		position: absolute;
+		top: 12px;
+		left: 73px;
+	}
+	
+	#sidebar_sourds_texte {
+		display: block;
+		color: #696c71;
+		margin-top: 7px;
+		padding-right: 5px;
+	}
+	
+	
+	
+	#sidebar_pro {
+		width: 207px;
+		height: 98px;
+		border: 1px solid #d2d2d2;
+		border-radius: 3px;
+		background: url(../images/sidebar_fond_humain_pc.png) 13px 0 no-repeat;
+		position: relative;
+	}
+	
+	#sidebar_pro a {
+		color: #004999;
+	}
+	
+		#sidebar_pro_lien_1 {
+			position: absolute;
+			top: 25px;
+			left: 10px;
+		}
+		
+		#sidebar_pro_lien_2 {
+			position: absolute;
+			top: 50px;
+			left: 10px;
+		}
+		
+		#slidebar_pro_10salaries {
+			position: absolute;
+			top: 62px;
+			left: 20px;
+			font-size: 10px;
+			color: #004999;
+		}
+
+
+
+
+/* / Sidebar */
+
+/* ------------------------ Service urgences */
+
+#services_urgence {
+	width: 729px;
+	height: auto !important;
+	min-height: 500px;
+	border: 1px solid #d2d2d2;
+	border-radius: 3px;
+	float: left;
+	margin: 15px 0 30px 0;
+	background: url(../images/barre_verticale_2.png) bottom repeat-x;
+	color: #696c71;
+}
+
+#services_urgence a {
+	text-decoration: underline;
+}
+
+.services_urgence_titre_et_contenu {
+	width: 659px;
+	height: auto !important;
+	min-height: 20px;
+	float: left;
+}
+
+#services_urgence h2 {
+		font-size: 14px;
+		font-weight: bold;
+		color: #01abc4;
+}
+
+	.services_urgences_blocs {
+		width: 729px;
+		height: auto !important;
+		min-height: 50px;
+		margin-top: 20px;
+	}
+	
+	.services_urgences_blocs a {
+		color: #696c71;
+	}
+	
+		.services_urgences_blocs_image {
+			width: 70px;
+			float: left;
+			text-align: center;
+		}
+		
+		.services_urgences_blocs_titre {
+			margin-top: 5px;
+			width: 659px;
+		}
+		
+		.services_urgences_blocs_contenu {
+			margin-top: 15px;
+		}
+
+/* / Service urgences */
+
+/* ------------------------ Courrier */
+
+#courrier_contenu {
+	width: 729px;
+	height: 461px;
+	background: url(../images/barre_verticale_3.png) bottom repeat-x;
+	position: relative;
+	border: 1px solid #d2d2d2;
+	border-radius: 3px;
+	margin: 15px 0 30px 0;
+	color: #696c71;
+}
+
+#courrier_contenu a {
+	color: #696c71;
+	text-decoration: underline;
+}
+
+	#courrier_contenu_adresse {
+		position: absolute;
+		width: 350px;
+		height: 100px;
+		top: 20px;
+		left: 190px;
+		text-align: center;
+	}
+	
+	#courrier_contenu_adresse h2 {
+		font-size: 18px;
+		color: #696c71;
+		font-weight: bold;
+	}
+	
+	#courrier_contenu_phrase {
+		position: absolute;
+		width: 450px;
+		height: 20px;
+		top: 150px;
+		left: 20px;
+	}
+	
+	#courrier_contenu_image_1 {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		top: 200px;
+		left: 50px;
+	}
+	
+	#courrier_contenu_texte_1 {
+		position: absolute;
+		width: 590px;
+		height: 40px;
+		top: 210px;
+		left: 130px;
+	}
+		
+	#courrier_contenu_image_2 {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		top: 280px;
+		left: 50px;
+	}
+	
+	#courrier_contenu_texte_2 {
+		position: absolute;
+		width: 590px;
+		height: 40px;
+		top: 290px;
+		left: 130px;
+	}
+	
+	#courrier_contenu_texte_3 {
+		position: absolute;
+		width: 690px;
+		height: 70px;
+		top: 370px;
+		left: 20px;
+	}
+
+/* / Courrier */
+
+/* ------------------------ Social */
+
+#social {
+}
+
+/* / Social */
+
+/* ------------------------ Clubs */
+
+#clubs_contenu {
+	width: 729px;
+	height: 300px;
+	background: url(../images/barre_verticale_2.png) bottom repeat-x;
+	position: relative;
+	border: 1px solid #d2d2d2;
+	border-radius: 3px;
+	margin: 15px 0 30px 0;
+	color: #696c71;
+}
+
+	#clubs_contenu_titre {
+		position: absolute;
+		width: 400px;
+		height: 50px;
+		top: 60px;
+		left: 174px;
+	}
+	
+	#clubs_contenu_titre h2 {
+		text-transform: uppercase;
+		color: #01abc4;
+		font-size: 24px;
+	}
+	
+	#clubs_contenu_nombre {
+		position: absolute;
+		width: 300px;
+		height: 50px;
+		top: 130px;
+		left: 219px;
+		color: #696C71;
+		font-size: 18px;
+	}
+	
+	#clubs_contenu_lien {
+		position: absolute;
+		width: 250px;
+		height: 25px;
+		bottom: 50px;
+		left: 249px;
+		font-size: 9px;
+	}
+	
+	#clubs_contenu_lien a {
+		color: #696c71;
+	}
+	
+
+/* / Clubs */
+
+/* ------------------------ Téléphone */
+
+#telephone_contenu_choix {
+}
+
+#telephone_contenu_deja_client {
+}
+
+#telephone_contenu_futur_client {
+}
+
+/* / Téléphone */
+
+/* Slider Déjà client */
+
+#deja_client {
+	width: 729px;
+	height: 650px;
+    position: relative;
+	border: 1px solid #d2d2d2;
+	border-radius: 0 0 3px 3px;
+	margin: 15px 0 30px 0;
+}
+
+#slider_titre {
+	width: 729px;
+	height: 54px;
+	background: #01abc4;
+}
+
+#slider_titre h2 {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 100px;
+	height: 50px;
+	color: white;
+	font-size: 18px;
+}
+	
+.largeur_146px {
+	width: 146px;
+}
+
+.largeur_145px {
+	width: 145px;
+}
+	
+		
+
+/* Gallery styles */
+
+#gallery{
+	width: 729px;
+	overflow: hidden;
+	height: 551px;
+}
+
+#slides{
+	height: 551px;
+	width: 729px;
+	overflow: hidden;
+	color: #696c71;
+}
+
+	#slides a {
+		text-decoration: underline;
+	}
+	
+	#slides h3 {
+			font-weight: bold;
+	}
+
+	.slide_1 {
+		float: left;
+		width: 729px;
+		height: 521px;
+		background: url(../images/barre_verticale_3.png) repeat-x bottom;
+		padding-top: 30px;
+	}
+	
+	.slide_2 {
+		float: left;
+		width: 729px;
+		height: 521px;
+		background: url(../images/barre_verticale_3.png) repeat-x bottom;
+		padding-top: 30px;
+	}
+	
+	.slide_3 {
+		float: left;
+		width: 729px;
+		height: 521px;
+		background: url(../images/barre_verticale_3.png) repeat-x bottom;
+		padding-top: 30px;
+	}
+	
+	.slide_4 {
+		float: left;
+		width: 729px;
+		height: 551px;
+		background: url(../images/barre_verticale_3.png) repeat-x bottom;
+	}
+	
+		.slide_4 a {
+			color: #696c71;
+		}
+	
+	.slide_5 {
+		float: left;
+		width: 729px;
+		height: 521px;
+		background: url(../images/barre_verticale_3.png) repeat-x bottom;
+		padding-top: 30px;
+	}
+	
+	.deja_client_verifiez {
+	position: relative;
+	top: 20px;
+	left: 40px;
+	color: #01abc4;
+	}
+	
+	.deja_client_depuis_mobile_titre {
+		position: relative;
+		top: 40px;
+		left: 40px;
+	}
+	
+	.deja_client_numero_mobile_et_cout {
+		position: relative;
+		top: 50px;
+		left: 40px;
+		font-size: 24px;
+		font-weight: bold;
+	}
+	
+	.deja_client_depuis_fixe_titre {
+		position: relative;
+		top: 80px;
+		left: 40px;
+		font-weight: bold;
+	}
+	
+	.deja_client_numero_fixe_et_cout {
+		position: relative;
+		top: 90px;
+		left: 40px;
+		font-size: 24px;
+		font-weight: bold;
+	}
+	
+	.deja_client_horaires_titre {
+		position: relative;
+		top: 120px;
+		left: 40px;
+		font-size: 14px;
+		text-transform: uppercase;
+	}
+	
+	.deja_client_horaires_contenu {
+		position: relative;
+		top: 130px;
+		left: 40px;
+	}
+	
+	.deja_client_etranger_titre {
+		position: relative;
+		top: 160px;
+		left: 40px;
+	}
+	
+	.deja_client_etranger_titre_bbox {
+		position: relative;
+		top: 20px;
+		left: 0px;
+		font-weight: bold;
+	}
+	
+	.deja_client_etranger_contenu_bbox {
+		position: relative;
+		top: 30px;
+		left: 0px;
+	}
+	
+	.deja_client_etranger_contenu {
+		position: relative;
+		top: 180px;
+		left: 40px;
+	}
+	
+	
+	#deja_client_bbox_content {
+		position: relative;
+	}
+	
+		#deja_client_bbox_3_reflex {
+			font-size: 46px;
+			color: #01abc4;
+			position: absolute;
+			top: 15px;
+			left: 200px;
+		}
+		
+		#deja_client_bbox_titre {
+			position: absolute;
+			top: 20px;
+			left: 230px;
+			color: #01abc4;
+			font-size: 18px;
+		}
+		
+		#deja_client_bbox_num_1 {
+			position: absolute;
+			top: 95px;
+			left: 50px;
+			background: url(../images/sprite_deja_client_bbox.png) 0 0 no-repeat;
+			width: 45px;
+			height: 45px;
+		}
+		
+		#deja_client_bbox_texte_1 {
+			position: absolute;
+			top: 80px;
+			left: 130px;
+		}
+		
+		#deja_client_bbox_num_2 {
+			position: absolute;
+			top: 200px;
+			left: 50px;
+			background: url(../images/sprite_deja_client_bbox.png) 0 -46px no-repeat;
+			width: 45px;
+			height: 45px;
+		}
+		
+		#deja_client_bbox_texte_2 {
+			position: absolute;
+			top: 210px;
+			left: 130px;
+		}
+		
+		#deja_client_bbox_num_3 {
+			position: absolute;
+			top: 260px;
+			left: 50px;
+			background: url(../images/sprite_deja_client_bbox.png) 0 -92px no-repeat;
+			width: 45px;
+			height: 45px;
+		}
+		
+		#deja_client_bbox_texte_3 {
+			position: absolute;
+			top: 265px;
+			left: 130px;
+		}
+		
+		#deja_client_bbox_texte_4 {
+			position: absolute;
+			top: 320px;
+			left: 50px;
+		}
+	
+	
+
+
+
+#menu{
+	/* This is the container for the thumbnails */
+	height: 45px;
+	overflow:hidden;
+	
+}
+
+ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+#menu li{
+	/* Every thumbnail is a li element */
+
+	list-style: none;
+	height: 45px;
+	overflow: hidden;
+	float: left;
+}
+
+li.inact:hover{
+}
+
+li.act,li.act:hover{
+}
+
+li.act a{
+	cursor: default;
+	text-decoration: none;
+}
+
+.fbar{
+	width: 2px;
+
+}
+
+#menu li a{
+	display: block;
+	height: 35px;
+	padding-top: 10px;
+}
+
+a img{
+	border: none;
+}
+
+.nav_bar {
+	background: #01abc4;
+	text-align: center;
+}
+
+.nav_bar.act {
+	background: white;
+}
+
+.nav_bar a {
+	color: white;
+	font-weight: bold;
+}
+
+.nav_bar a:hover {
+	background: white;
+	color: #696c71;
+	text-decoration: none;
+}
+
+.nav_bar.act a {
+	color: #696c71;
+}
+
+/* / Slider Déjà client */
+
+
+/* Futurs clients */
+
+#futurs_clients_contenu {
+	width: 729px;
+	height: 289px;
+	background: url(../images/barre_verticale_4.png) bottom repeat-x;
+	position: relative;
+	border: 1px solid #d2d2d2;
+	border-radius: 3px;
+	margin: 15px 0 30px 0;
+	color: #696c71;
+}
+
+	#futurs_clients_titre {
+		position: absolute;
+		top: 10px;
+		left: 20px;
+		width: 170px;
+		height: 40px;
+	}
+	
+	#futurs_clients_titre h2 {
+		color: #01abc4;
+		font-size: 24px;
+	}
+	
+	#futurs_clients_vos_achats {
+		position: absolute;
+		top: 90px;
+		left: 20px;
+		width: 150px;
+		height: 30px;
+		color: #01abc4;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	
+	#futurs_clients_vos_achats_contenu {
+		position: absolute;
+		top: 140px;
+		left: 20px;
+		width: 250px;
+		height: 40px;
+	}
+	
+	#futurs_clients_votre_suivi_de_commande {
+		position: absolute;
+		top: 90px;
+		left: 400px;
+		width: 240px;
+		height: 30px;
+		color: #01abc4;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	
+	#futurs_clients_votre_suivi_de_commande_contenu {
+		position: absolute;
+		top: 140px;
+		left: 400px;
+		width: 330px;
+		height: 60px;
+	}
+	
+	#futurs_clients_barre_vertical {
+		position: absolute;
+		top: 50px;
+		left: 350px;
+		width: 1px;
+		height: 231px;
+		background: url(../images/futur_client_barre_verticale.png) no-repeat;
+	}
+	
+/* / Futurs clients */
+
+/* Choix Déjà ou Futurs clients */
+
+#deja_ou_futurs_clients_contenu {
+	width: 729px;
+	height: 240px;
+	background: url(../images/barre_verticale_4.png) bottom repeat-x;
+	position: relative;
+	border: 1px solid #d2d2d2;
+	border-radius: 3px;
+	margin: 15px 0 30px 0;
+	color: #696c71;
+}
+
+	#deja_ou_futurs_clients_contenu a {
+		font-size: 18px;
+		font-weight: bold;
+	}
+
+	#deja_ou_futurs_clients_deja {
+		position: absolute;
+		top: 100px;
+		left: 130px;
+	}
+	
+	#deja_ou_futurs_clients_OU {
+		position: absolute;
+		top: 100px;
+		left: 360px;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	
+	#deja_ou_futurs_clients_futur {
+		position: absolute;
+		top: 100px;
+		left: 490px;
+	}
+	
+
+/* / Choix Déjà ou Futurs clients */
+
+
+#services_urgence_lien, #navigation_telephone, #navigation_clubs, #navigation_courrier {
+	cursor: pointer;
+}
+
+#services_urgence_lien span:hover {
+	text-decoration: underline;
+}
+
+#test_couleur {
+	color: blue;
+}

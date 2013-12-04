@@ -1,0 +1,24 @@
+/* CONTENEUR FOOTER */
+#footer {background: url(../imagesSite/footer/bg_footer.gif) bottom repeat-x; border-top: solid 1px #e6e5e5; font: normal 11px Arial, Helvetica, sans-serif; height:44px; width: 995px;}
+
+/* CLASS BLOC HADICAP & INTERNATIONAL */
+.footer-1 {float: left; margin:5px 10px 0 0; width: 170px;}
+.footer-1 img.inter {padding:0 0 0 44px; vertical-align: middle;}
+.footer-1 a {text-decoration: none;}
+.footer-1 a:hover {text-decoration: underline;}
+.footer-1 ul {margin: 0; padding: 0;}
+.footer-1 li{list-style: none; margin: 0 0 2px 0; padding: 0 0 0 5px;}
+.footer1 li a {color: #4f5d64; padding:0 0 0 85px;}
+
+/* CLASS BLOC LIENS */
+.footer-2 {float: left; margin:7px 15px 0 0; text-align: center; width: 660px;}
+.footer-2 ul {margin: 0; padding: 0;}
+.footer-2 li {display: inline; margin:0; list-style: none; padding:0;}
+.footer-2 li a{color: #008bb3; font-weight: bold; padding: 0 3px; text-decoration: none;}
+.footer-2 li a:hover {background-color: #008bb3; color: #fff; text-decoration: none;}
+
+/* CLASS BLOC FIA NET */
+.footer-3 {float: left; margin:6px 0 0 0;}
+
+/* CLASS BR AFIN D'AFFICHER LE FOND JUSQU'EN BAS */
+.clear {clear: both;}

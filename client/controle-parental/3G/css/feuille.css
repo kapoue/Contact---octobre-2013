@@ -1,0 +1,204 @@
+* {margin:0;padding:0}
+img { border: none;}
+body{
+background-image:url(../images/fond.png);
+background-repeat:y left;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#0A3448;
+padding:0;
+margin:0;
+}
+
+
+a{color: #0197B8; text-decoration: underline}
+a:hover{color:#0197B8; text-decoration: none}
+ 
+ 
+/*
+Le selecteur conteneur ci-dessous permet de centrer la page horizontalement, c'est lui qui contient la structure du site.
+Il est commun a toutes les pages du site.
+*/ 
+.structure{
+position: relative;
+margin-left: auto;
+margin-right: auto;
+width:995px;
+text-align:left;
+}
+
+/* Menu */
+ul#menu{border-bottom:solid 1px #7eccce; float:left}
+ul#menu, ul#menu ul {list-style-type:none;margin: 0;padding: 0;width: 22em;}
+ul#menu a {display: block;text-decoration: none; height:13px}
+ul#menu li a {background: #fff;color: #000;padding: 0.5em 0.5em 0.5em 25px;border: solid 1px #7eccce;border-bottom:none;color:#0199A5}
+ul#menu li a:hover {background: url("../images/fond.jpg") repeat-x;}
+ul#menu li a.lnk{background: url("../images/fond.jpg") repeat-x}
+ul#menu li a.lnk2{ font-weight:bold}
+ul#menu li ul li a {background: #fff;color: #000;padding-left: 40px;font-weight:normal;color:#0199A5}
+ul#menu li ul li a:hover {background: url("../images/fond.jpg") repeat-x;padding-left: 40px; font-weight:bold}
+.code { border: 1px solid #ccc; list-style-type: decimal-leading-zero; padding: 5px; margin: 0; }
+.code code { display: block; padding: 3px; margin-bottom: 0; }
+.code li { background: #ddd; border: 1px solid #ccc; margin: 0 0 2px 2.2em; }
+.indent1 { padding-left: 1em; }
+.indent2 { padding-left: 2em; }
+
+
+header {}
+
+
+/**** HAUT *****/
+#haut { padding:130px 0 20px 10px}
+
+#chemin {
+margin-top:2px;
+margin-left:2px;
+font-weight:bold;
+color:#2B9DA7;
+}
+
+#localisation {color:#0A3448;}
+
+a.lien_chemin{color:#0A3448;  text-decoration:underline; font-weight:normal}
+a.lien_chemin:hover {color:#0A3448; text-decoration:none; font-weight:normal}
+
+/**** CONTENU *****/
+#content{width:1100px;}
+
+#contenu {
+	float:left;
+	width: 730px;
+	height: 315px;
+	background-color: #e5f8f9;
+	margin-left:20px;
+	}
+
+h1 {font-size:25px; color:#2B9DA7; font-weight:normal}
+h2 {font-size:11px; color:#2B9DA7; font-weight:bold;
+background-image:url(../images/mg_puce_active.gif);
+background-repeat:no-repeat;
+background-position:0px 3px;
+padding: 0px 0px 3px 10px;}
+h3 {background-image:url(../images/fond_titre.gif); background-repeat:repeat-x; height:17px; font-size:12px; font-weight:bold; color:#007A97; padding-top:1px}
+
+
+#flash_home{width:727px; border-left:1px solid #C6DFE4; border-right:1px solid #C6DFE4; padding:0 0 0 3px}
+#flash_tetiere_haut {width:731px; height:4px; background-image:url(../images/filet_tetiere_home.gif); background-repeat:no-repeat}
+#flash_tetiere_bas {width:731px; height:4px; background-image:url(../images/filet_tetiere_home_bas.gif); background-repeat:no-repeat; margin-bottom:10px}
+
+.orange {color:#FF6600;}
+.orange_10 {color:#FF6600; font-size:10px}
+.orange_16 {color:#FF6600; font-size:16px}
+.titre {background-image:url(../images/fond_titre.gif); background-repeat:repeat-x; height:17px; font-size:12px; font-weight:bold; color:#007A97; padding-top:1px}
+a.lien_savoir{color:#0A3448;  text-decoration:underline; font-weight:normal}
+a.lien_savoir:hover {color:#0A3448; text-decoration:none; font-weight:normal}
+a.lien_savoir_blanc{color:#fff;  text-decoration:underline; font-weight:normal}
+a.lien_savoir_blanc:hover {color:#fff; text-decoration:none; font-weight:normal}
+
+.brique_238_134 {width:238px; height:134px; float:left; position:relative; background-repeat:no-repeat; }
+.sp {
+	background-image:url(../images/picto_fleche.gif);
+	background-position:0px 3px;
+	padding-left:12px;
+	background-repeat:no-repeat;
+	position:absolute;
+	top:112px;
+	right:10px;
+	width: 129px;
+	height: 18px;
+	left: 119px;
+}
+
+#liste ul
+{
+list-style-type: none;
+margin:8px 0 0 10px
+}
+
+#liste li
+{
+background-image:url(../images/puce_liste.gif);
+background-repeat:no-repeat;
+background-position:0px 6px;
+padding-left:10px;
+margin-bottom:5px 
+}
+
+
+
+
+
+
+/**** Les box *****/
+
+
+#bg {
+	display:block;
+	float:left;
+	width: 995px;
+	height: 500px;
+	background:#FFFFFF;
+	margin-top:25px;
+	
+	}
+	
+#title {
+	display:block;
+	width: 997px;
+	height: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;	
+	color: #BDD038;
+	/*background-color: #86D2DF;*/
+	padding-left: 20px;
+	padding-top: 10px;
+	_margin-top: -3px;
+	/*margin-top: 10px;*/
+	/*margin-left: 5px;*/
+	float: left;
+	}
+	
+#cover1 {
+	display:block;
+	float:left;
+	/*
+	width: 572px;
+	height: 394px;
+	*/
+	margin-top:0px;
+	_margin-top:0px;
+	margin-left:20px;
+	_margin-left:10px;
+	}
+	
+#cover2 {
+
+	margin-top:0px;
+	_margin-top:0px;
+	margin-left:770px;
+	
+	}
+	
+#cover3 {
+	
+	margin-top:35px;
+	_margin-top:35px;
+	margin-left:770px;
+	
+	}
+	
+#more {
+	display:block;
+	width: 997px;
+	height: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;	
+	color: #0197B8;
+	/*background-color: #86D2DF;*/
+	padding-left: 20px;
+	padding-top: 0px;
+	_margin-top: -3px;
+	/*margin-top: 10px;*/
+	/*margin-left: 5px;*/
+	float: left;
+	}

@@ -1,0 +1,53 @@
+/**
+ * @workaround     clearing
+ * @affected       ie 6, 7
+ */
+#myAccount .text, #myAccountFirstVisit .actions, #mainMenu ul {zoom:1;}
+
+
+/**
+ * @workaround     hasLayout
+ * @affected       ie 6
+ */
+* html #myAccount dd {zoom:1;}
+
+
+/**
+ * @workaround     list containing elements in display:block
+ * @affected       ie 6
+ */
+* html #myAccount .logged li, * html #myAccount .logged li a {zoom:1;}
+
+
+/**
+ * @workaround     background transparent on the padding of some elements
+ * @affected       ie 6
+ */
+* html #myAccount .login {border-top:1px solid #4586A0;}
+
+
+/**
+ * @workaround     overlarge legends + bad spacing on fieldsets
+ * @affected       ie 6
+ */
+* html #myAccount fieldset {
+    overflow:hidden;
+    width:186px;
+}
+
+
+/**
+ * @workaround     PNG 24 and related problems
+ * @affected       ie 6
+ */
+* html #logo {
+    background:none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/templates/universal_mobile/img/common/header-logo.png',sizingMethod='image');
+}
+* html a#logo {cursor:pointer;}
+
+* html #myAccount dt, * html #myAccount .login, * html #myAccount .logged {background:#4586A0;}
+* html #myAccount .register, * html #myAccount .logout {background:#FFF;}
+
+* html #mainMenu ul {background:#92036C;}
+* html #mainMenu .expand {background:#FFF;}

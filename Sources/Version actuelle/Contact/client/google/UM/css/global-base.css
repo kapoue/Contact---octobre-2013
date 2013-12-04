@@ -1,0 +1,243 @@
+/**
+ * @section        generic
+ */
+body {
+    margin:0; padding:0 0 50px;
+    background:#FFF; color:#252525;
+    font:11px/1.364 "Trebuchet MS", Arial, Verdana, sans-serif;
+}
+
+/* if possible, eliminate scroll in maximized 1024 windows */
+@media screen and (min-width:995px) {
+    body {overflow-x:hidden;}
+}
+
+h1, h2, h3 {
+    margin:0;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+.mainTitle {
+    margin-bottom:13px;
+    background:url(/templates/universal_mobile/img/common/core-main-title.png) no-repeat 883px 50%; color:#92036C;
+    font-size:50px;
+}
+
+form, fieldset, legend {margin:0; padding:0; border:0;}
+legend span {display:block;}
+.text input {
+    float:left;
+    margin:0; padding:3px 10px; border:0;
+    background:transparent; color:#252525;
+    font:11px "Trebuchet MS", Arial, Verdana, sans-serif;
+}
+
+p {margin:10px 0;}
+ul {
+    margin:10px 0; padding:0;
+    list-style:none;
+}
+
+a {
+    color:#92036C;
+    text-decoration:none;
+}
+a:hover, a:focus {text-decoration:underline;}
+
+img {border:0;}
+
+#page {
+    margin:0 auto;
+    min-width:1000px; max-width:1155px;
+}
+.wrapper {
+    margin:0 auto;
+    width:961px;
+}
+
+/**
+ * @section        buttons
+*/
+.btn, .btnMin, .btnLow, .btnHigh {
+    margin-top:0;
+    line-height:18px; white-space:nowrap;
+}
+
+.btn a {
+    float:left;
+    padding-right:15px;
+    background:url(/templates/universal_mobile/img/common/btns.png) no-repeat; color:#FFF;
+}
+.btnMin a, .btnLow a, .btnHigh a {
+    float:left;
+    height:19px;
+}
+.btnLow button, .btnHigh button {
+    float:left;
+    margin:0; padding:0; border:0;
+    background:none;
+    font:11px/18px "Trebuchet MS", Arial, Verdana, sans-serif;
+    cursor:pointer;
+}
+.btnLow button::-moz-focus-inner, .btnHigh button::-moz-focus-inner {padding:0; border:0;}
+.btnLow button span, .btnHigh button span {
+    float:left;
+    height:19px;
+    line-height:18px;
+}
+.btn a:hover span, .btn a:focus span,
+.btnLow button:hover span, .btnLow button:focus span,
+.btnHigh button:hover span, .btnHigh button:focus {text-decoration:underline;}
+.btnMin a {padding-left:8px;}
+.btnLow a, .btnLow button span {padding-left:11px;}
+.btnHigh a, .btnHigh button span {padding-left:16px;}
+
+.btn span {
+    float:left;
+    background:url(/templates/universal_mobile/img/common/btns.png) no-repeat;
+}
+
+.btn span span {
+    padding-left:25px;
+    height:19px;
+    background:url(/templates/universal_mobile/img/common/icon-arrow-white.png) no-repeat 15px 50%;
+}
+
+.btnViolet a {background-position:100% -19px;}
+.btnViolet span {background-position:0 0;}
+
+.btnBlue a {background-position:100% -57px;}
+.btnBlue span {background-position:0 -38px;}
+
+.btnLilac a {background-position:100% -95px;}
+.btnLilac span {background-position:0 -76px;}
+
+.btnViolet .download span span, .btnBlue .download span span, .btnLilac .download span span {
+    padding-left:36px;
+    background:url(/templates/universal_mobile/img/common/icon-download-white.png) no-repeat 15px 50%;
+}
+.btnViolet .back span span, .btnBlue .back span span, .btnLilac .back span span {
+    padding-left:30px;
+    background-image:url(/templates/universal_mobile/img/common/icon-arrow-double-back-white.png);
+}
+
+.btnMinViolet a, .btnLowViolet a, .btnHighViolet a,
+.btnLowViolet button, .btnHighViolet button {color:#92036C;}
+.btnMinViolet a {background:url(/templates/universal_mobile/img/common/icon-arrow-min-violet.png) no-repeat 0 50%;}
+.btnLowViolet a, .btnLowViolet button span {background:url(/templates/universal_mobile/img/common/icon-arrow-violet.png) no-repeat 0 50%;}
+.btnHighViolet a, .btnHighViolet button span {background:url(/templates/universal_mobile/img/common/icon-arrow-double-violet.png) no-repeat 0 50%;}
+
+.btnLowWhite a, .btnHighWhite a,
+.btnLowWhite button, .btnHighWhite button {color:#FFF;}
+.btnLowWhite a, .btnLowWhite button span {background:url(/templates/universal_mobile/img/common/icon-arrow-white.png) no-repeat 0 50%;}
+.btnHighWhite a, .btnHighWhite button span {background:url(/templates/universal_mobile/img/common/icon-arrow-double-white.png) no-repeat 0 50%;}
+
+.btnLowGold a, .btnHighGold a,
+.btnLowGold button, .btnHighGold button {color:#C6B269;}
+.btnLowGold a, .btnLowGold button span {background:url(/templates/universal_mobile/img/common/icon-arrow-gold.png) no-repeat 0 50%;}
+.btnHighGold a, .btnHighGold button span {background:url(/templates/universal_mobile/img/common/icon-arrow-double-gold.png) no-repeat 0 50%;}
+
+.btnMinBlack a, .btnLowBlack a, .btnHighBlack a {color:#252525;}
+.btnMinBlack a {background:url(/templates/universal_mobile/img/common/icon-arrow-min-black.png) no-repeat 0 50%;}
+.btnLowBlack a {background:url(/templates/universal_mobile/img/common/icon-arrow-black.png) no-repeat 0 50%;}
+.btnHighBlack a {background:url(/templates/universal_mobile/img/common/icon-arrow-double-black.png) no-repeat 0 50%;}
+
+.btnLowBlue a, .btnHighBlue a {color:#009CBA;}
+.btnLowBlue a {background:url(/templates/universal_mobile/img/common/icon-arrow-blue.png) no-repeat 0 50%;}
+.btnHighBlue a {background:url(/templates/universal_mobile/img/common/icon-arrow-double-blue.png) no-repeat 0 50%;}
+
+.actions .btn {float:left;}
+.actions .btnLow, .actions .btnHigh {float:right;}
+
+
+/**
+ * @section        columns
+ */
+.columns3 {background:url(/templates/universal_mobile/img/common/columns3-separator.png) repeat-y 314px 0;}
+.columns3 .column, .columns3 .columnMid {
+    float:left;
+    width:295px;
+}
+.columns3 .columnMid {margin:0 38px;}
+
+.columns2-1 .columnMain {
+    float:left;
+    width:628px;
+}
+.columns2-1 .columnAside {
+    float:right;
+    width:314px;
+}
+
+.boxAllViolet .content {background:url(/templates/universal_mobile/img/common/columns3-separator-white.png) repeat-y 314px 0;}
+.boxAllViolet .column {
+    float:left;
+    width:280px;
+}
+.boxAllViolet .columnMid {
+    float:left;
+    margin:0 38px;
+    width:295px;
+}
+
+.columns2-1 .columnMain .mainTitle {
+    overflow:hidden;
+    width:628px;
+}
+
+
+/**
+ * @section        boxes
+ */
+.boxAllViolet {margin-bottom:10px; padding-bottom:10px;}
+
+.columns2-1 .boxMaxViolet, .columns2-1 .boxMaxGold,
+.columns2-1 .boxMinViolet, .columns2-1 .boxMinGold {margin-bottom:30px;}
+
+.boxAllViolet .header,
+.boxMaxViolet .header, .boxMaxGold .header,
+.boxMinViolet .header, .boxMinGold .header {padding:15px 15px 0;}
+.boxAllViolet .content,
+.boxMaxViolet .content, .boxMaxGold .content,
+.boxMinViolet .content, .boxMinGold .content {padding:0 15px 1px;}
+
+.columns2-1 .boxMinViolet, .columns2-1 .boxMinGold {margin-left:19px;}
+
+.boxAllViolet, .boxMaxViolet, .boxMinViolet {background-color:#ADAAC7; background-repeat:no-repeat; color:#FFF;}
+.boxMaxGold, .boxMinGold {background-color:#C6B269; background-repeat:no-repeat; color:#FFF;}
+
+.boxAllViolet .header {background:url(/templates/universal_mobile/img/common/core-main-box-961.png) no-repeat;}
+.boxAllViolet {background-image:url(/templates/universal_mobile/img/common/core-main-box-961.png); background-position:-961px 100%;}
+
+.boxMaxViolet .header {background:url(/templates/universal_mobile/img/common/core-main-box-314.png) no-repeat;}
+.boxMaxViolet {background-image:url(/templates/universal_mobile/img/common/core-main-box-314.png); background-position:-314px 100%;}
+
+.boxMaxGold .header {background:url(/templates/universal_mobile/img/common/core-main-box-314.png) no-repeat -628px 0;}
+.boxMaxGold {background-image:url(/templates/universal_mobile/img/common/core-main-box-314.png); background-position:-942px 100%;}
+
+.boxMinViolet .header {background:url(/templates/universal_mobile/img/common/core-main-box-295.png) no-repeat;}
+.boxMinViolet {background-image:url(/templates/universal_mobile/img/common/core-main-box-295.png); background-position:-295px 100%;}
+
+.boxMinGold .header {background:url(/templates/universal_mobile/img/common/core-main-box-295.png) no-repeat -590px 0;}
+.boxMinGold {background-image:url(/templates/universal_mobile/img/common/core-main-box-295.png); background-position:-885px 100%;}
+
+.boxBasic h2 {
+    color:#C6B269;
+    font-size:18px;
+}
+.boxAllViolet h2, .boxMaxViolet h2, .boxMinViolet h2,
+.boxMaxGold h2, .boxMinGold h2 {font-size:18px;}
+
+
+/**
+ * @section        clearing
+ */
+.wrapper:after,
+.btn:after, .btnMin:after, .btnLow:after, .btnHigh:after,
+.columns3:after, .columns2-1:after, .boxAllViolet .content:after, .boxBasic:after,
+.actions:after {
+    display:block; clear:both;
+    visibility:hidden;
+    height:0;
+    content:".";
+}

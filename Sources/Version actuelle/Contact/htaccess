@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^index.php$ / [R=301,L,QSA]

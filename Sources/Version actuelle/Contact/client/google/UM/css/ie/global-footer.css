@@ -1,0 +1,23 @@
+/**
+ * @workaround     clearing
+ * @affected       ie 6, 7
+ */
+#footer fieldset {zoom:1;}
+
+
+/**
+ * @workaround     overlarge legends + bad spacing on fieldsets
+ * @affected       ie 6
+ */
+* html #footer fieldset {
+    float:left;
+    overflow:hidden;
+    width:163px;
+}
+
+
+/**
+ * @workaround     double margins on floats
+ * @affected       ie 6
+ */
+* html #search, * html #newsletter, * html #findStore {display:inline;}

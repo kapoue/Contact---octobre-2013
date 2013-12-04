@@ -1,0 +1,213 @@
+/**
+ * @section        header
+ */
+#header {
+    position:relative; z-index:2;
+    margin:0 auto;
+    width:1000px;
+}
+
+#logo {
+    position:absolute; top:0; left:0; z-index:1;
+    padding:29px 0 0 20px;
+    width:165px; height:139px;
+    background:url(/templates/universal_mobile/img/common/header-logo.png) no-repeat;
+}
+#logo img {display:block;}
+
+#baseline {
+    position:absolute; top:0; left:195px;
+    margin:0;
+    height:45px;
+    color:#E2007A;
+    font-size:18px; font-weight:bold;
+    text-transform:uppercase;
+    line-height:45px;
+}
+
+#myAccount {
+    position:absolute; top:0; right:20px;
+    margin:0;
+    width:224px;
+}
+#myAccount dt {
+    margin:0; padding:15px 22px 0 16px;
+    background:url(/templates/universal_mobile/img/common/header-my-account.png) repeat-y; color:#FFF;
+    font-size:16px; font-weight:bold;
+    text-transform:uppercase;
+}
+#myAccount dd {
+    position:relative;
+    margin:0; padding:0;
+}
+#myAccount .login, #myAccount .register,
+#myAccount .logged, #myAccount .logout {padding:8px 22px 8px 16px;}
+#myAccount .login, #myAccount .logged {background:url(/templates/universal_mobile/img/common/header-my-account.png) repeat-y; color:#FFF;}
+#myAccount .register, #myAccount .logout {background:url(/templates/universal_mobile/img/common/header-my-account.png) no-repeat -224px 100%;}
+
+#myAccountShowLogin, #myAccountRegister, #myAccountLogout {margin:0;}
+#myAccountLostPwd {
+    clear:left;
+    margin:0;
+    font-size:10px;
+}
+
+#myAccount legend span {
+    padding-bottom:10px;
+    width:186px;
+}
+
+#telMyAccountField {
+    margin-bottom:10px;
+    background:url(/templates/universal_mobile/img/common/header-my-account-tel-field.png) no-repeat 0 100%;
+}
+#pwdMyAccountField {
+    float:left;
+    width:149px;
+    background:url(/templates/universal_mobile/img/common/header-my-account-pwd-field.png) no-repeat 0 100%;
+}
+#telMyAccountField input {width:162px;}
+#pwdMyAccountField input {width:129px;}
+#myAccountLogin .text label {
+    display:block;
+    padding-bottom:2px;
+}
+#myAccountLogin .actions {
+    float:left;
+    margin-top:18px; padding-left:5px;
+}
+#myAccountLogin .actions input {
+    float:left;
+    margin:0;
+    color:#FFF;
+    font:bold 11px "Trebuchet MS", Arial, Verdana, sans-serif;
+}
+
+#myAccountHideLogin {
+    position:absolute; bottom:10px; left:100px;
+    overflow:hidden;
+    padding-top:11px;
+    width:15px; height:0;
+    background:url(/templates/universal_mobile/img/common/icon-arrow-close-header-login.png) no-repeat 1px 0;
+}
+
+#myAccountFirstVisit {
+    padding-bottom:15px;
+    color:#4586A0;
+}
+#myAccountFirstVisit p {margin:3px 0;}
+#myAccountFirstVisit strong {text-transform:uppercase;}
+#myAccountFirstVisit .btn {float:right;}
+
+#myAccount .logged p, #myAccount .logged ul {margin:0;}
+#myAccount .logged div {padding-top:10px;}
+#myAccount .logged span {text-transform:uppercase;}
+#myAccount .logged a {color:#FFF;}
+#myAccount .logged p a {
+    text-decoration:none;
+    cursor:default;
+}
+#myAccount .logged li a {
+    display:block;
+    padding:2px 0 2px 11px;
+    background:url(/templates/universal_mobile/img/common/icon-arrow-white.png) no-repeat 0 0.45em;
+}
+
+/* with JS */
+#js #myAccountLogin, #js #myAccountFirstVisit, #myAccount .logged div {display:none;}
+
+
+/**
+ * @section        mainMenu
+ */
+#mainMenu {
+    position:absolute; top:45px; left:185px;
+    width:558px;
+}
+#mainMenu ul {
+    margin:0;
+    height:47px;
+    background:url(/templates/universal_mobile/img/common/main-menu.png) no-repeat;
+}
+#mainMenu li {float:left;}
+#mainMenu img {display:block;}
+#mainMenu a {
+    float:left;
+    overflow:hidden;
+    height:46px;
+    color:#FFF;
+    text-transform:uppercase;
+    line-height:44px; white-space:nowrap;
+}
+#mainMenu .on img, #mainMenu a.expanded img, #mainMenu a:hover img, #mainMenu a:focus img {margin-top:-46px;}
+
+#mainMenu .expand {
+    position:absolute; top:46px; left:-26px;
+    width:540px;
+    background:url(/templates/universal_mobile/img/common/main-menu-expand.png) no-repeat;
+}
+#js #mainMenu .expand {display:none;}
+#mainMenu .content {
+    float:left;
+    padding:35px 0 0 35px;
+    width:263px; height:194px;
+}
+#mainMenu .push {
+    float:right;
+    width:242px;
+}
+
+#mainMenu .expand ul {
+    height:auto;
+    background:none;
+}
+#mainMenu .expand li {
+    display:block; float:none;
+    padding:2px 0;
+}
+#mainMenu .expand ul.columns li {
+    float:left;
+    padding-right:5px;
+    width:120px;
+}
+#mainMenu .expand li a {
+    display:block; float:none;
+    padding-left:11px;
+    height:auto;
+    background:url(/templates/universal_mobile/img/common/icon-arrow-violet.png) no-repeat 0 0.27em; color:#252525;
+    text-transform:none;
+    line-height:1.33; white-space:normal;
+}
+#mainMenu .expand li a:hover, #mainMenu .expand li a:focus {color:#92036C;}
+
+#mainMenu .expand .btnHigh {margin:20px 0 0;}
+#mainMenu .expand .btnHigh a {
+    height:19px;
+    font-weight:bold;
+    text-transform:none;
+    line-height:18px;
+}
+#mainMenu .expand .btnHighViolet a {color:#92036C;}
+
+#mainMenu .push a {
+    display:block; float:none;
+    height:auto;
+    line-height:1.33;
+    text-transform:none;
+    white-space:normal;
+}
+#mainMenu .push img, #mainMenu .push a:hover img, #mainMenu .push a:focus img {
+    display:block;
+    margin:0;
+}
+
+
+/**
+ * @section        clearing
+ */
+#myAccount .text:after, #myAccountFirstVisit .actions:after, #mainMenu ul:after {
+    display:block; clear:both;
+    visibility:hidden;
+    height:0;
+    content:".";
+}

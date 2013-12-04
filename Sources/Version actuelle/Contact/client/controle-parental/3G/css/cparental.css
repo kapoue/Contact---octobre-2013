@@ -1,0 +1,21 @@
+body {background-color:#FFFFFF; font: normal 11px Arial, Helvetica, sans-serif; color:#017992; padding:0; margin:0;}
+
+#global {width: 995px;}
+#ariane {margin-bottom: 20px; padding-left: 15px; width: 995px;}
+#col1 {float: left; width: 232px; margin-right: 20px;}
+#col2 {float: left; width: 495px; margin-right: 20px;}
+#col3 {float: left; width: 215px;}
+#spam {background: url('../images/bk_spam.jpg') no-repeat;}
+
+h3 {margin: 0; padding: 0; border-bottom: 1px solid #00ABC4; border-top: 1px solid #00ABC4; color: #00ABC4; font: bold 12px Arial, Helvetica, sans-serif; text-align: left;}
+
+h4 {margin: 0; padding: 0; border-bottom: 0px solid #00ABC4; border-top: 0px solid #00ABC4; color: #00ABC4; font: bold 12px Arial, Helvetica, sans-serif; text-align: left;}
+
+.titre {font: bold 22px Arial, Helvetica, sans-serif;}
+.mention {font: italic 9px Arial, Helvetica, sans-serif;}
+.lnk {font: bold 11px Arial, Helvetica, sans-serif; color: #F6782B;}
+.lnk:hover {font: bold 11px Arial, Helvetica, sans-serif; color: #F6782B; text-decoration: none;}
+.lnk_ariane {font: bold 11px Arial, Helvetica, sans-serif; color: #000000;}
+.lnk_ariane:hover {font: bold 11px Arial, Helvetica, sans-serif; color: #000000; text-decoration: none;}
+.obli {font: bold 12px Tahoma; color: #F6782B;}
+

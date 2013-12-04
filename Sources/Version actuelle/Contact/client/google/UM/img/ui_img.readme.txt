@@ -1,0 +1,6 @@
+User Interface Images
+---------------------
+
+Images de l'interface à gérer en local.
+
+Les images de contenu seront fournies dynamiquement par l'appel du header. 

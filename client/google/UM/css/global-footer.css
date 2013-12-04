@@ -1,0 +1,116 @@
+/**
+ * @section        footer
+ */
+#footer {
+    padding:19px 0 50px;
+    background:#92036C url(/templates/universal_mobile/img/common/core-footer-end.png) no-repeat 50% 100%;
+}
+#footer .wrapper {width:1000px;}
+
+#umUniverse {
+    float:left;
+    padding-left:20px;
+    width:725px;
+    color:#FFF;
+    line-height:1.64;
+}
+#umUniverse h2 {
+    margin-bottom:14px;
+    font-size:22px;
+}
+#umUniverse .section {
+    float:left;
+    margin:0 10px 10px 0;
+    width:170px;
+}
+#umUniverse .clearer {
+    clear:both;
+    overflow:hidden;
+    width:725px; height:0;
+}
+#umUniverse h3 {
+    font-size:13px; font-weight:normal;
+    text-decoration:underline;
+}
+#umUniverse ul {margin:4px 0;}
+#umUniverse li a {
+    padding-left:10px;
+    background:url(/templates/universal_mobile/img/common/icon-arrow-white.png) no-repeat 0 0.39em; color:#FFF;
+}
+#umUniverse p {margin:7px 0 0;}
+#umUniverse .btnMore {font-weight:bold;}
+
+#search, #newsletter, #findStore {
+    float:right;
+    margin-right:13px;
+    width:229px;
+}
+
+#footer fieldset {
+    padding:0 33px 24px;
+    background:url(/templates/universal_mobile/img/common/footer-box.png) no-repeat 0 100%;
+}
+#footer legend {
+    white-space:normal;
+    color:#92036C;
+    font-size:18px; font-weight:bold;
+    text-transform:uppercase;
+    line-height:1;
+}
+#footer legend span {width:163px;}
+#footer legend span span {
+    margin-top:9px;
+    color:#252525;
+    font-size:11px; font-weight:normal;
+    text-transform:none;
+}
+
+#footer .text {
+    float:left;
+    overflow:hidden;
+}
+#footer .text label {position:absolute; left:-10000px;}
+#footer .actions, #footer .actions input {
+    float:left;
+    margin:0;
+    color:#92036C;
+    font:bold 11px "Trebuchet MS", Arial, Verdana, sans-serif;
+}
+
+#search {
+    margin:0 20px 20px 0;
+    width:166px;
+}
+#search .text {
+    height:30px;
+    background:#FFF url(/templates/universal_mobile/img/common/footer-search-field.png) no-repeat;
+}
+#search .text input {
+    padding:7px 10px;
+    width:103px;
+}
+#search .actions input {color:#FFF;}
+
+#newsletter, #findStore {
+    margin-bottom:9px; padding-top:24px;
+    background:#FFF url(/templates/universal_mobile/img/common/footer-box.png) no-repeat;
+}
+#newsletter p {margin:7px 0 0;}
+#newsletter .text, #findStore .text {
+    margin-top:19px;
+    height:22px;
+    background:#E8E8E8 url(/templates/universal_mobile/img/common/footer-text-field.png) no-repeat;
+}
+#newsletter .text input, #findStore .text input {width:109px;}
+#newsletter .actions, #findStore .actions {margin-top:19px; padding-left:5px;}
+
+
+/**
+ * @section        clearing
+ */
+#footer fieldset:after {
+    display:block; clear:both;
+    visibility:hidden;
+    height:0;
+    content:".";
+}

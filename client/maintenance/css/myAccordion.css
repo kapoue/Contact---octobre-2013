@@ -1,0 +1,18 @@
+#myAccordion {width:238px; height:183px; border:1px solid #B1D7DF; font:normal 11px Arial, Helvetica, sans-serif;}
+
+.myAccordion-declencheur {padding:5px 0 0 5px; cursor:pointer; background:url('../imagesSite/home/off.jpg') no-repeat; margin-bottom: 1px; height:20px; font:bold 11px Arial, Helvetica, sans-serif;}
+.myAccordion-declencheur a {text-decoration:none; color:#009CBF;}
+.myAccordion-declencheur a:hover {color:#0A3448; font-weight:bold; text-decoration:none;}
+
+.myAccordion-declencheur-actif {background:url('../imagesSite/home/on.jpg') no-repeat;}
+.myAccordion-declencheur-actif a {font-weight:bold; color:#009CBF; text-decoration:none;}
+
+.myAccordion-declencheur *{color:#009CBF; margin:0;}
+.myAccordion-declencheur-actif *{color: #fff;}
+
+.myAccordion-content {font-size:10px;}
+.myAccordion-content ul {list-style-type: none; margin: 0; padding: 0;}
+.myAccordion-content ul li {background-color: #FFF; padding:5px 0 0 8px;}
+.myAccordion-content ul li a {color:#0A3448; text-decoration:none;}
+.myAccordion-content ul li a:hover {color:#009CBF; text-decoration:underline;}
+.myAccordion-content-actif {font-size:11px; height:80px;}

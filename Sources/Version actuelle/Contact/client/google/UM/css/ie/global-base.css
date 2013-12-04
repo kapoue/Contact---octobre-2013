@@ -1,0 +1,48 @@
+/**
+ * @workaround     clearing
+ * @affected       ie 6, 7
+ */
+.wrapper,
+.btn, .btnMin, .btnLow, .btnHigh,
+.columns3, .columns2-1, .boxAllViolet .content, .boxBasic,
+.actions {zoom:1;}
+
+
+/**
+ * @workaround     min|max-width + adaptations
+ * @affected       ie 6
+ */
+* html #page {width:1000px;}
+
+
+/**
+ * @workaround     wrong cursor on elements inside links
+ * @affected       ie 6, 7
+ */
+a span, a strong {cursor:pointer;}
+
+
+/**
+ * @workaroud      button sizing
+ * @affected       ie 6, 7
+ */
+button {overflow:visible;}
+
+
+/**
+ * @workaround     margin on legend
+ * @affected       ie 6, 7
+ */
+legend {margin-left:-7px;}
+
+
+/**
+ * @workaround     PNG 24 and related problems
+ * @affected       ie 6
+ */
+* html .btnViolet a {background:#92036C;}
+* html .btnBlue a {background:#4586A0;}
+* html .btnLilac a {background:#ADAAC7;}
+
+* html .btnViolet span, * html .btnBlue span, * html .btnLilac span {background-image:none;}
+* html .btn span span {background-image:url(/templates/universal_mobile/img/common/icon-arrow-white.png);}

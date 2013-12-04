@@ -1,0 +1,53 @@
+#header {background: url(../imagesSite/header/bg_header.jpg) no-repeat; color: #007a97; font:normal 11px Arial, Helvetica, sans-serif; margin: 0; overflow: hidden; padding: 0; height:73px; width:995px;}
+
+#onglets {float:right; padding-right:15px;}
+
+.logo {float: left; margin:0; padding:14px 15px; vertical-align: middle; width: 450px;}
+.logo img {vertical-align: middle;}
+.logoBT {margin:0 40px 0 0;}
+
+#bk-menu {background: url(../imagesSite/header/bg_mainNav.gif) repeat-x; height:21px; width: 995px;}
+#bk-menu a {text-decoration: none;}
+
+#menu {float:left; display:inline; width: 995px;}
+
+.sur-menu li {float:left; margin:0 4px; position:relative; text-align:center; width:68px;}
+.sur-menu li a.niveau-1, .sur-menu li a.niveau-2, .sur-menu li a.niveau-3 {display:block; color: #fff; font-size: 1.18em; height:17px; padding:2px;}
+.sur-menu li a.niveau-1:hover, .sur-menu li.hover a.niveau-1, .sur-menu li a.niveau-2:hover, .sur-menu li.hover a.niveau-2, .sur-menu li a.niveau-3:hover, .sur-menu li.hover a.niveau-3 {background-image: url(../imagesSite/header/bg_bt_nav.gif); color:#006b7d; font-size: 1.09em; font-weight: bold;}
+
+.sur-menu li.bk-big-1 {width: 200px;}
+.sur-menu li.bk-big-1 a.niveau-1:hover, .sur-menu li.bk-big-1.hover a.niveau-1, .sur-menu li.bk-big-1 a.niveau-3:hover, .sur-menu li.bk-big-1.hover a.niveau-3 {background-image: url(../imagesSite/header/bg_bt_nav1.gif);}
+
+.sur-menu li.bk-big-2 {width: 97px;}
+.sur-menu li.bk-big-2 a.niveau-1:hover, .sur-menu li.bk-big-2.hover a.niveau-1 {background-image: url(../imagesSite/header/bg_bt_nav2.gif);}
+
+.sur-menu li.bk-big-3 {width: 120px;}
+.sur-menu li.bk-big-3 a.niveau-1:hover, .sur-menu li.bk-big-1.hover a.niveau-1, .sur-menu li.bk-big-1 a.niveau-3:hover, .sur-menu li.bk-big-1.hover a.niveau-3 {background-image: url(../imagesSite/header/bg_bt_nav1.gif);}
+.sur-menu li ul {position: absolute; background: url(../imagesSite/header/bg_submenu3.gif) 0 0 no-repeat; left:0; padding:0 1px; width: 288px; z-index: 555000; display: none; filter:alpha(opacity=100); opacity: 1; -moz-opacity:1;}
+.sur-menu li ul li {float:none; border-bottom: solid 1px #87cfdb; margin:0; text-align: left; width: auto;}
+.sur-menu li ul li a {color: #0a3448; display: block; height:14px !important; height:10px; padding:3px 10px 3px 10px;}
+.sur-menu li ul li a {color: #0a3448; display: block; height:10px; padding:3px 10px 3px 10px;}
+.sur-menu li ul li a:hover {color: #00b1c1; font-weight: bold; height:10px;}
+
+#bk-search {background: url(../imagesSite/header/bg_googleSearch.jpg) repeat-x; width: 995px; height: 29px;}
+#bk-search input[type=radio], #bk-search input[type=checkbox] {margin-right: 2px;}
+
+#google {float: left; color: #029aa2; margin:3px 0 0 10px; width: 650px;}
+#google p {margin:0;}
+#google label {margin:0 5px 0 0;}
+#google .textField {border: solid 1px #8cd2d6; color: #029aa2; margin: 0 5px; padding: 1px 4px; width: 200px;}
+#google img {vertical-align: middle;}
+#google .bt-search {margin:0 5px 0 5px !important; margin:0 0 0 5px;}
+#google em {font: normal 0.9em Arial, Helvetica, sans-serif; margin-right: 5px;}
+
+#tout-en-un {float: right; position: relative; margin: -2px 0; text-align: right; height: 25px; width: 220px; z-index: 1000;}
+#tout-en-un a.niveau-1 {float: right; display: block; background: url(../imagesSite/header/bg_click.gif) no-repeat right bottom; color: #019aa2; font: bold 1.09em Arial, Helvetica, sans-serif; padding: 8px 23px 4px 14px; text-decoration: none; width: 120px;}
+#tout-en-un a.niveau-1:hover {background-image: url(../imagesSite/header/bg_click_on.gif);}
+#tout-en-un ul {position: absolute; background-image: url(../imagesSite/header/bg_allInAClicMenu.gif); padding: 0 1px; right: 0; top: 25px; text-align: left; width: 210px; z-index: 5000; display: none; filter:alpha(opacity=100); opacity: 1; -moz-opacity:1;}
+#tout-en-un ul li {border-bottom: solid 1px #87cfdb; text-align: left;}
+#tout-en-un li.hover a.niveau-1 {background-image: url(../imagesSite/header/bg_click_on.gif);}
+#tout-en-un ul li a {color: #0a3448; display: block; height:14px !important; height:10px; padding: 3px 5px 3px 8px; position: relative; text-decoration: none; z-index: 5000;}
+#tout-en-un ul li a:hover {color: #00b1c1; font-weight: bold;}
+
+/* CLASS BR AFIN D'AFFICHER LE FOND JUSQU'EN BAS */
+.clear {clear: both;}
