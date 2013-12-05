@@ -130,7 +130,7 @@ include_once('base64.php');
 		<!-- Blocs Clients BBox -->
 		<article id="blocs_clients_bbox">
 			<header class="header_principal">Clients Bbox</header>
-			<article id="pre_titre">Les 3 réflexes et efficaces à avoir avant toute question technique <img src="/img/octobre_2013/logo_point_interrogation.png"></article>
+			<article id="pre_titre">Les 3 réflexes et efficaces &agrave; avoir avant toute question technique <a href="/clients_bbox_questions_techniques.php" class="various fancybox.ajax" id="single_2" title="Les 3 réflexes et efficaces &agrave; avoir avant toute question technique"><img src="/img/octobre_2013/logo_point_interrogation.png"></a></article>
 			<article class="titre">Votre service client est joignable</article>
 			<article class="sous_titre">Pour vos questions techniques : <b>7j/7, de 8h à 22h</b><br><br>Pour vos questions commerciales : <b>du lundi au samedi, de 8h à 20h</b></article>
 			<?php
@@ -201,6 +201,16 @@ include_once('base64.php');
 					<article class="txt_14_arial txt_color_69">De signer votre courrier (toute demande devant &ecirc;tre effectu&eacute;e par le titulaire du contrat).</article>
 				</section>
 				<br clear="all">
+				<section id="cartouche_bas">
+					<article>
+						<img src="/img/octobre_2013/point_interrogation.png">
+					</article>
+					<article class="lien_texte">
+						<img src="<?php echo $fleche_bleue; ?>">
+							<a href="/recours/" title="Si la r&eacute;ponse du Service Clients &agrave; votre r&eacute;clamation n&rsquo;est pas satisfaisante, que faire ?">Si la r&eacute;ponse du Service Clients &agrave; votre r&eacute;clamation n&rsquo;est pas satisfaisante, que faire ?</a>
+					</article>
+				</section>
+				
 			</article>
 			<br clear="all">			
 		</article>

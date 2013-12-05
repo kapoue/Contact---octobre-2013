@@ -18,7 +18,7 @@ include_once('base64.php');
 				<header>Magasins</header>
 				<article>Nos conseillers vous guident dans nos 650 magasins Bouygues Telecom. Conseils, tests, SAV...</article>
 			</article>
-			<article><img src="http://www.contact.bouyguestelecom.fr/img/octobre_2013/photo_magasin.jpg"></article>
+			<article><img src="img/octobre_2013/photo_magasin.jpg"></article>
 			<article><img src="<?php echo $fleche_bleue; ?>"><a href="http://magasins.bouyguestelecom.fr/" title="Trouvez un magasin Bouygues Telecom" onclick="return xt_adc(this,'int-100001-[Contact::1311::03::HomeBloc5::TrouverUnMagasin]')">Trouvez un magasin Bouygues Telecom</a></article>
 		</article>
 		<article id="bloc_6">
@@ -26,13 +26,13 @@ include_once('base64.php');
 				<header>Service Clients</header>
 				<article>Notre Service Clients vous propose des conseils personnalis&eacute;s sans vous d&eacute;placer.</article>
 			</article>
-			<article><img src="http://www.contact.bouyguestelecom.fr/img/octobre_2013/photo_service_clients.jpg"></article>
-			<article><img src="<?php echo $fleche_bleue; ?>"><a href="service_clients.php" title="Contactez votre Service Clients" onclick="return xt_adc(this,'int-100001-[Contact::1311::03::HomeBloc6::ContacterServiceClients]')">Contactez votre Service Clients</a></article>
+			<article><img src="img/octobre_2013/photo_service_clients.jpg"></article>
+			<article><img src="<?php echo $fleche_bleue; ?>"><a href="service_clients/" title="Contactez votre Service Clients" onclick="return xt_adc(this,'int-100001-[Contact::1311::03::HomeBloc6::ContacterServiceClients]')">Contactez votre Service Clients</a></article>
 		</article>
 		<article id="bloc_7">
 			<header>Pas encore client ?</header>
-			<article><img src="http://www.contact.bouyguestelecom.fr/img/octobre_2013/photo_pas_encore_client.jpg"></article>
-			<article><img src="<?php echo $fleche_bleue; ?>"><a href="futur_client.php" title="Nous contacter" onclick="return xt_adc(this,'int-100001-[Contact::1311::03::HomeBloc7::PasEncoreClientNousContacter]')">Nous contacter</a></article>
+			<article><img src="img/octobre_2013/photo_pas_encore_client.jpg"></article>
+			<article><img src="<?php echo $fleche_bleue; ?>"><a href="futur_client/" title="Nous contacter" onclick="return xt_adc(this,'int-100001-[Contact::1311::03::HomeBloc7::PasEncoreClientNousContacter]')">Nous contacter</a></article>
 		</article>
 		<?php include_once('autres_contacts_bas.php'); ?>
 	</section>
